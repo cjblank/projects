@@ -1,0 +1,3 @@
+Final Score: 0
+Highest Anxiety Level Reached: 5
+Time Elapsed: 3.6818677

@@ -1,0 +1,128 @@
+<?xml version = "1.0"?>
+<GameData>
+<!-- screenTitle is also used to identify you and your animation.
+     So make sure to include your name as part of the screenTitle -->
+<title>The Tracker Framework</title>
+<maxStringSize>50</maxStringSize>
+
+<frameCapOn>true</frameCapOn>
+<period>17</period>
+<numFlyingMons>10</numFlyingMons>
+
+<maxFrames>300</maxFrames>
+<username>cjblank</username>
+
+<view>
+  <width>1280</width>
+  <height>720</height>
+  <loc x="5" y="30"/>
+</view>
+
+<fps>
+  <loc x="5" y="0"/>
+</fps>
+
+<name>
+    <str author="Clay Blankenship"/>
+    <loc x="5" y="690"/>
+    <red>255</red>
+    <green>255</green>
+    <blue>255</blue>
+    <alpha>0</alpha>
+</name>
+
+<hud>
+    <str line1= "Hold the 'D' key to go right"
+         line2= "Hold the 'A' key to go left"/>
+</hud>
+
+<world>
+  <width>5120</width>
+  <height>720</height>
+  <safeDistance>150</safeDistance>
+</world>
+
+<back1>
+  <file>assets/backgrounds/Sky.png</file>
+  <factor>6</factor>
+  <transparency>false</transparency>
+</back1>
+
+<back2>
+  <file>assets/backgrounds/back.png</file>
+  <factor>5</factor>
+  <transparency>false</transparency>
+</back2>
+
+<back3>
+  <file>assets/backgrounds/houses3.png</file>
+  <factor>4</factor>
+  <transparency>false</transparency>
+</back3>
+
+<back4>
+  <file>assets/backgrounds/houses1.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back4>
+
+<back5>
+  <file>assets/backgrounds/minishopcallbox.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back5>
+
+<back6>
+  <file>assets/backgrounds/roadlamps.png</file>
+  <factor>2</factor>
+  <transparency>false</transparency>
+</back6>
+
+<font name="font">
+  <file>fonts/arial.ttf</file>
+  <size>24</size>
+  <red>255</red>
+  <green>255</green>
+  <blue>0</blue>
+  <alpha>0</alpha>
+</font>
+
+<SpinningStar>
+  <file>assets/stars.png</file>
+  <startLoc x="50" y="140"/>
+  <frames>4</frames>
+  <frameInterval>50</frameInterval>
+  <speedX>200</speedX>
+  <speedY>200</speedY>
+  <transparency>true</transparency>
+</SpinningStar>
+
+<YellowStar>
+  <file>assets/yellowstar32.png</file>
+  <startLoc x="227" y="240"/>
+  <speedX>800</speedX>
+  <speedY>300</speedY>
+  <transparency>false</transparency>
+</YellowStar>
+
+<PoliceMan>
+    <frames>6</frames>
+    <startLoc x="50" y="480"/>
+    <file>assets/police/policeSpriteSheet.png</file>
+    <frameInterval>75</frameInterval>
+    <speedX>800</speedX>
+    <speedY>0</speedY>
+    <transparency>false</transparency>
+</PoliceMan>
+
+<FlyingMonster>
+  <frames>5</frames>
+  <startLoc x="50" y="200"/>
+  <file>assets/enemies/flyingmonster.png</file>
+  <frameInterval>75</frameInterval>
+  <speedX>1000</speedX>
+  <speedY>100</speedY>
+  <transparency>false</transparency>
+</FlyingMonster>
+
+</GameData>

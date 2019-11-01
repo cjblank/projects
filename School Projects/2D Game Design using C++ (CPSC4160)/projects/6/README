@@ -1,0 +1,18 @@
+Name: Clay Blankenship
+
+Course: CPSC 4160
+
+Clemson Email Address: cjblank@g.clemson.edu
+
+Final Project: #6
+
+Project due date: May 1st, 2019 at 8 AM
+
+Project description: This is the final version of my game. The game is a survival
+                        game of sorts where the player has to shoot his way
+                        through 5 rounds of zombies. The player has 3 lives per
+                        round and has the option to restart at any time.
+
+The Pizzazz feature that I added: I used painter's algorithm for the flying
+                                    monsters in order to create the illusion of
+                                    depth.

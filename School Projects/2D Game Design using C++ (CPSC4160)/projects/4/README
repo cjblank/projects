@@ -1,0 +1,27 @@
+Name: Clay Blankenship
+
+Course: CPSC 4160
+
+Clemson Email Address: cjblank@g.clemson.edu
+
+Project no: #4
+
+Project due date: March 29, 2018
+
+Project description: Adding a Player Object
+
+The easiest part of this project: The easiest part of the project was implementing the HUD.
+
+Problems that I had in completing this project: I had some trouble figuring out the referencing of 
+		observers within the Observer design pattern. 
+
+A few sentences describing my proposed project: My game will consist of a few levels of varying 
+		difficulties for the final project that will have the PoliceMan sprite fighting off zombies 
+		along with flying monsters that will be dropping objects in the harder difficulties that 
+		the PoliceMan will have to dodge. The controls will mainly consist of moving the player to the
+		left and to the right as well as giving the player the ability to shoot a gun for shooting the 
+		zombies. The game will keep score either by keeping track of the elapsed time the player lasts 
+		within a level or by keeping a kill counter of the zombies. Each game will conclude with the 
+		death of the player, and that might be acheived by a level up, in terms of difficulty, during 
+		the game if the player reaches a certain point total in order to ensure that they would result 
+		in a death eventually. 

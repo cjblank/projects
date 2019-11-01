@@ -1,0 +1,54 @@
+#include "player.h"
+
+Player::Player( const std::string& name) :
+  TwoWayMultiSprite(name),
+  collision(false),
+  initialVelocity(getVelocity())
+{ }
+
+Player::Player(const Player& s) :
+  TwoWayMultiSprite(s),
+  collision(s.collision),
+  initialVelocity(s.getVelocity())
+  { }
+
+Player& Player::operator=(const Player& s) {
+  TwoWayMultiSprite::operator=(s);
+  collision = s.collision;
+  initialVelocity = s.initialVelocity;
+  return *this;
+}
+
+void Player::stop() {
+  //setVelocity( Vector2f(0, 0) );
+  setVelocityX( 0.5*getVelocityX() );
+  setVelocityY(0);
+}
+
+void Player::right() {
+  if ( getX() < worldWidth-getScaledWidth()) {
+    setVelocityX(initialVelocity[0]);
+    turnAround();
+  }
+}
+void Player::left()  {
+  if ( getX() > 0) {
+    setVelocityX(-initialVelocity[0]);
+    turnAround();
+  }
+}
+void Player::up()    {
+  if ( getY() > 0) {
+    setVelocityY( -initialVelocity[1] );
+  }
+}
+void Player::down()  {
+  if ( getY() < worldHeight-getScaledHeight()) {
+    setVelocityY( initialVelocity[1] );
+  }
+}
+
+void Player::update(Uint32 ticks) {
+  if ( !collision ) TwoWayMultiSprite::update(ticks);
+  stop();
+}

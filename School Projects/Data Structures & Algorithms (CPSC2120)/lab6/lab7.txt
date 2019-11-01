@@ -1,0 +1,30 @@
+Clay Blankenship
+CPSC 212
+Lab 6
+
+1)         5
+         /   \
+       3,4   8,9
+      /     /   \
+    1,2   6,7    10
+
+2)  1, 2, 6, 7, 10
+
+3)  it means that there will only be one copy of MAX throughout all of the objects of that class
+
+4)  gives us the option to define a method in a base class and have a method of the same name and type in a
+        derived class when a user calls the base class function
+
+5)  it is used so that another key can be inserted into the given node
+    if a nullptr is returned, a key will not be added to a particular node or the node cannot contain
+        additional keys
+
+6)  The algorithm checks if the current node can accept any more keys, if so, a new key is added.
+        If the node cannot contain any more, it checks that node's sibling to see if it can accept a key.
+        If it can, a new key will be added to that sibling. This is done in order until the bottom of
+        the tree has been reached.
+
+7)  this method prints out the current depth of the tree, and in this case, the depth is 0 because it is at the root
+
+8)  good: a value can be found without going too far deep into the tree
+    bad:  runtime is slow

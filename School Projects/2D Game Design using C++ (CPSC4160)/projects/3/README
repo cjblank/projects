@@ -1,0 +1,28 @@
+Name: Clay Blankenship
+
+Course: CPSC 4160
+
+Clemson Email Address: cjblank@g.clemson.edu
+
+Project no: #3
+
+Project due date: March 4, 2019
+
+Project description: Polymorphism in Action
+
+where did I get my sprites, including background:
+  policeman sprites: https://craftpix.net/freebies/2d-game-police-character-free-sprite-sheets/
+  zombie sprites: https://craftpix.net/freebies/2d-game-zombie-character-free-sprite-pack-1/
+  backgrounds: https://craftpix.net/freebies/free-pixel-art-street-2d-backgrounds/
+  flying monster: https://lionheart963.itch.io/free-platformer-assets
+
+What is the theme of my animation: A cop running in a post-apocalyptic world
+            with flying monsters flying above him.
+
+Did I make a polymorphic vector:  Yes
+
+What do I like better:  Meyer's Singleton
+
+The easiest part of this project: adding the layers to the world
+
+Problems that I had in completing this project: spawning the flying monsters on within the world

@@ -1,0 +1,1260 @@
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+
+Enter the number of messages to simulate: 10
+Enter  packet loss probability [enter 0.0 for no loss]:.25
+Enter packet corruption probability [0.0 for no corruption]:0
+Enter average time between messages from sender's layer5 [ > 0.0]:1000
+Enter TRACE:2
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 0.0f
+INSERTEVENT: future time will be 1586.628126302109f
+EVENT time: 1586.628126302109, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 1586.628126302109f
+INSERTEVENT: future time will be 3347.8098279489996f
+MAINLOOP: data given to student: aaaaaaaaaaaaaaaaaaa
+A received aaaaaaaaaaaaaaaaaaa from application layer
+TOLAYER3: seq: 0, ack 0, check: -51, aaaaaaaaaaaaaaaaaaa
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1586.628126302109f
+INSERTEVENT: future time will be 1595.8942952511607f
+START TIMER: starting timer at 1586.628126302109
+INSERTEVENT: time is 1586.628126302109f
+INSERTEVENT: future time will be 1636.628126302109f
+EVENT time: 1595.8942952511607, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 0, ACK: 0, Checksum: -51, Payload: aaaaaaaaaaaaaaaaaaa) from network layer layer
+TOLAYER3: seq: 0, ack 1, check: -1,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1595.8942952511607f
+INSERTEVENT: future time will be 1604.362800324057f
+TOLAYER5: data received: aaaaaaaaaaaaaaaaaaa
+EVENT time: 1604.362800324057, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 0, ACK: 1, Checksum: -1, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 1604.362800324057
+EVENT time: 3347.8098279489996, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 3347.8098279489996f
+INSERTEVENT: future time will be 4952.336191233245f
+MAINLOOP: data given to student: bbbbbbbbbbbbbbbbbbb
+A received bbbbbbbbbbbbbbbbbbb from application layer
+TOLAYER3: seq: 1, ack 0, check: -71, bbbbbbbbbbbbbbbbbbb
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3347.8098279489996f
+INSERTEVENT: future time will be 3349.003099527126f
+START TIMER: starting timer at 3347.8098279489996
+INSERTEVENT: time is 3347.8098279489996f
+INSERTEVENT: future time will be 3397.8098279489996f
+EVENT time: 3349.003099527126, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 1, ACK: 0, Checksum: -71, Payload: bbbbbbbbbbbbbbbbbbb) from network layer layer
+TOLAYER3: seq: 1, ack 1, check: -2,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3349.003099527126f
+INSERTEVENT: future time will be 3356.9446370365636f
+TOLAYER5: data received: bbbbbbbbbbbbbbbbbbb
+EVENT time: 3356.9446370365636, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 1, ACK: 1, Checksum: -2, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 3356.9446370365636
+EVENT time: 4952.336191233245, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 4952.336191233245f
+INSERTEVENT: future time will be 5183.402502845125f
+MAINLOOP: data given to student: ccccccccccccccccccc
+A received ccccccccccccccccccc from application layer
+TOLAYER3: seq: 2, ack 0, check: -91, ccccccccccccccccccc
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 4952.336191233245f
+INSERTEVENT: future time will be 4958.83324639623f
+START TIMER: starting timer at 4952.336191233245
+INSERTEVENT: time is 4952.336191233245f
+INSERTEVENT: future time will be 5002.336191233245f
+EVENT time: 4958.83324639623, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 2, ACK: 0, Checksum: -91, Payload: ccccccccccccccccccc) from network layer layer
+TOLAYER3: seq: 2, ack 1, check: -3,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 4958.83324639623f
+INSERTEVENT: future time will be 4961.421654384935f
+TOLAYER5: data received: ccccccccccccccccccc
+EVENT time: 4961.421654384935, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 2, ACK: 1, Checksum: -3, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 4961.421654384935
+EVENT time: 5183.402502845125, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 5183.402502845125f
+INSERTEVENT: future time will be 5227.8631166263385f
+MAINLOOP: data given to student: ddddddddddddddddddd
+A received ddddddddddddddddddd from application layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 5183.402502845125
+INSERTEVENT: time is 5183.402502845125f
+INSERTEVENT: future time will be 5233.402502845125f
+EVENT time: 5227.8631166263385, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 5227.8631166263385f
+INSERTEVENT: future time will be 7063.890658959707f
+MAINLOOP: data given to student: eeeeeeeeeeeeeeeeeee
+A received eeeeeeeeeeeeeeeeeee from application layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 4, ack 0, check: -131, eeeeeeeeeeeeeeeeeee
+START TIMER: starting timer at 5227.8631166263385
+Warning: attempt to start a timer that is already started
+EVENT time: 5233.402502845125, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5233.402502845125f
+INSERTEVENT: future time will be 5242.074923057637f
+START TIMER: starting timer at 5233.402502845125
+INSERTEVENT: time is 5233.402502845125f
+INSERTEVENT: future time will be 5283.402502845125f
+EVENT time: 5242.074923057637, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: ddddddddddddddddddd) from network layer layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 1, check: -4,
+TOLAYER5: data received: ddddddddddddddddddd
+EVENT time: 5283.402502845125, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5283.402502845125f
+INSERTEVENT: future time will be 5288.968446483636f
+START TIMER: starting timer at 5283.402502845125
+INSERTEVENT: time is 5283.402502845125f
+INSERTEVENT: future time will be 5333.402502845125f
+EVENT time: 5288.968446483636, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: ddddddddddddddddddd) from network layer layer
+TOLAYER3: seq: 3, ack 1, check: -4,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5288.968446483636f
+INSERTEVENT: future time will be 5298.09336296901f
+EVENT time: 5298.09336296901, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 1, Checksum: -4, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 5298.09336296901
+EVENT time: 7063.890658959707, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7063.890658959707f
+INSERTEVENT: future time will be 7134.904703681517f
+MAINLOOP: data given to student: fffffffffffffffffff
+A received fffffffffffffffffff from application layer
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7063.890658959707f
+INSERTEVENT: future time will be 7068.282510392533f
+START TIMER: starting timer at 7063.890658959707
+INSERTEVENT: time is 7063.890658959707f
+INSERTEVENT: future time will be 7113.890658959707f
+EVENT time: 7068.282510392533, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffff) from network layer layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 5, ack 1, check: -6,
+EVENT time: 7113.890658959707, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 4, ack 0, check: -131, eeeeeeeeeeeeeeeeeee
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7113.890658959707f
+INSERTEVENT: future time will be 7123.776298708882f
+START TIMER: starting timer at 7113.890658959707
+INSERTEVENT: time is 7113.890658959707f
+INSERTEVENT: future time will be 7163.890658959707f
+EVENT time: 7123.776298708882, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 4, ACK: 0, Checksum: -131, Payload: eeeeeeeeeeeeeeeeeee) from network layer layer
+TOLAYER3: seq: 4, ack 1, check: -5,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7123.776298708882f
+INSERTEVENT: future time will be 7129.153165308269f
+TOLAYER5: data received: eeeeeeeeeeeeeeeeeee
+EVENT time: 7129.153165308269, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 4, ACK: 1, Checksum: -5, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 7129.153165308269
+EVENT time: 7134.904703681517, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7134.904703681517f
+INSERTEVENT: future time will be 7961.908439078188f
+MAINLOOP: data given to student: ggggggggggggggggggg
+A received ggggggggggggggggggg from application layer
+TOLAYER3: seq: 6, ack 0, check: -171, ggggggggggggggggggg
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7134.904703681517f
+INSERTEVENT: future time will be 7140.798123177733f
+START TIMER: starting timer at 7134.904703681517
+INSERTEVENT: time is 7134.904703681517f
+INSERTEVENT: future time will be 7184.904703681517f
+EVENT time: 7140.798123177733, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 6, ACK: 0, Checksum: -171, Payload: ggggggggggggggggggg) from network layer layer
+TOLAYER3: seq: 6, ack 1, check: -7,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7140.798123177733f
+INSERTEVENT: future time will be 7146.1154363292135f
+EVENT time: 7146.1154363292135, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 6, ACK: 1, Checksum: -7, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 7146.1154363292135
+EVENT time: 7961.908439078188, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7961.908439078188f
+INSERTEVENT: future time will be 7989.350170830755f
+MAINLOOP: data given to student: hhhhhhhhhhhhhhhhhhh
+A received hhhhhhhhhhhhhhhhhhh from application layer
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7961.908439078188f
+INSERTEVENT: future time will be 7967.2787370259675f
+START TIMER: starting timer at 7961.908439078188
+INSERTEVENT: time is 7961.908439078188f
+INSERTEVENT: future time will be 8011.908439078188f
+EVENT time: 7967.2787370259675, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhh) from network layer layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 7, ack 1, check: -8,
+EVENT time: 7989.350170830755, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7989.350170830755f
+INSERTEVENT: future time will be 8273.365934315449f
+MAINLOOP: data given to student: iiiiiiiiiiiiiiiiiii
+A received iiiiiiiiiiiiiiiiiii from application layer
+TOLAYER3: seq: 8, ack 0, check: -211, iiiiiiiiiiiiiiiiiii
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7989.350170830755f
+INSERTEVENT: future time will be 7993.925786962697f
+START TIMER: starting timer at 7989.350170830755
+Warning: attempt to start a timer that is already started
+EVENT time: 7993.925786962697, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 8, ACK: 0, Checksum: -211, Payload: iiiiiiiiiiiiiiiiiii) from network layer layer
+TOLAYER3: seq: 8, ack 1, check: -9,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7993.925786962697f
+INSERTEVENT: future time will be 8000.126080769074f
+EVENT time: 8000.126080769074, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 8, ACK: 1, Checksum: -9, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 8000.126080769074
+EVENT time: 8273.365934315449, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 8273.365934315449f
+INSERTEVENT: future time will be 10258.771077053365f
+MAINLOOP: data given to student: jjjjjjjjjjjjjjjjjjj
+A received jjjjjjjjjjjjjjjjjjj from application layer
+TOLAYER3: seq: 9, ack 0, check: -231, jjjjjjjjjjjjjjjjjjj
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 8273.365934315449f
+INSERTEVENT: future time will be 8277.193116474236f
+START TIMER: starting timer at 8273.365934315449
+INSERTEVENT: time is 8273.365934315449f
+INSERTEVENT: future time will be 8323.365934315449f
+EVENT time: 8277.193116474236, type: EventType.FROM_LAYER3, entity: 1
+
+
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+
+Enter the number of messages to simulate: 10
+Enter  packet loss probability [enter 0.0 for no loss]:0
+Enter packet corruption probability [0.0 for no corruption]:.25
+Enter average time between messages from sender's layer5 [ > 0.0]:1000
+Enter TRACE:2
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 0.0f
+INSERTEVENT: future time will be 1798.024510074464f
+EVENT time: 1798.024510074464, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 1798.024510074464f
+INSERTEVENT: future time will be 2950.5284598577537f
+MAINLOOP: data given to student: aaaaaaaaaaaaaaaaaaa
+A received aaaaaaaaaaaaaaaaaaa from application layer
+TOLAYER3: seq: 0, ack 0, check: -51, aaaaaaaaaaaaaaaaaaa
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1798.024510074464f
+INSERTEVENT: future time will be 1803.593138253226f
+START TIMER: starting timer at 1798.024510074464
+INSERTEVENT: time is 1798.024510074464f
+INSERTEVENT: future time will be 1848.024510074464f
+EVENT time: 1803.593138253226, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 0, ACK: 0, Checksum: -51, Payload: aaaaaaaaaaaaaaaaaaa) from network layer layer
+TOLAYER3: seq: 0, ack 1, check: -1,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1803.593138253226f
+INSERTEVENT: future time will be 1812.5572065915705f
+TOLAYER5: data received: aaaaaaaaaaaaaaaaaaa
+EVENT time: 1812.5572065915705, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 0, ACK: 1, Checksum: -1, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 1812.5572065915705
+EVENT time: 2950.5284598577537, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 2950.5284598577537f
+INSERTEVENT: future time will be 3881.7232222063913f
+MAINLOOP: data given to student: bbbbbbbbbbbbbbbbbbb
+A received bbbbbbbbbbbbbbbbbbb from application layer
+TOLAYER3: seq: 1, ack 0, check: -71, bbbbbbbbbbbbbbbbbbb
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 2950.5284598577537f
+INSERTEVENT: future time will be 2959.8590684050205f
+START TIMER: starting timer at 2950.5284598577537
+INSERTEVENT: time is 2950.5284598577537f
+INSERTEVENT: future time will be 3000.5284598577537f
+EVENT time: 2959.8590684050205, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 1, ACK: 0, Checksum: -71, Payload: bbbbbbbbbbbbbbbbbbb) from network layer layer
+TOLAYER3: seq: 1, ack 1, check: -2,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 2959.8590684050205f
+INSERTEVENT: future time will be 2965.6451834472273f
+TOLAYER5: data received: bbbbbbbbbbbbbbbbbbb
+EVENT time: 2965.6451834472273, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 1, ACK: 1, Checksum: -2, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 2965.6451834472273
+EVENT time: 3881.7232222063913, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 3881.7232222063913f
+INSERTEVENT: future time will be 4037.151725374984f
+MAINLOOP: data given to student: ccccccccccccccccccc
+A received ccccccccccccccccccc from application layer
+TOLAYER3: seq: 2, ack 0, check: -91, ccccccccccccccccccc
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3881.7232222063913f
+INSERTEVENT: future time will be 3883.940674174777f
+START TIMER: starting timer at 3881.7232222063913
+INSERTEVENT: time is 3881.7232222063913f
+INSERTEVENT: future time will be 3931.7232222063913f
+EVENT time: 3883.940674174777, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 2, ACK: 0, Checksum: -91, Payload: cccccccccccccccccccZ) from network layer layer
+TOLAYER3: seq: 2, ack 0, check: -2,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3883.940674174777f
+INSERTEVENT: future time will be 3888.80342825348f
+EVENT time: 3888.80342825348, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 2, ACK: 0, Checksum: -2, Payload: Z) from network layer layer
+EVENT time: 3931.7232222063913, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 2, ack 0, check: -91, ccccccccccccccccccc
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3931.7232222063913f
+INSERTEVENT: future time will be 3937.849488290971f
+START TIMER: starting timer at 3931.7232222063913
+INSERTEVENT: time is 3931.7232222063913f
+INSERTEVENT: future time will be 3981.7232222063913f
+EVENT time: 3937.849488290971, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 2, ACK: 0, Checksum: -91, Payload: ccccccccccccccccccc) from network layer layer
+TOLAYER3: seq: 2, ack 1, check: -3,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3937.849488290971f
+INSERTEVENT: future time will be 3947.0096035318957f
+TOLAYER5: data received: ccccccccccccccccccc
+EVENT time: 3947.0096035318957, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 2, ACK: 1, Checksum: -3, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 3947.0096035318957
+EVENT time: 4037.151725374984, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 4037.151725374984f
+INSERTEVENT: future time will be 5920.117566600506f
+MAINLOOP: data given to student: ddddddddddddddddddd
+A received ddddddddddddddddddd from application layer
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 4037.151725374984f
+INSERTEVENT: future time will be 4039.6987584683757f
+START TIMER: starting timer at 4037.151725374984
+INSERTEVENT: time is 4037.151725374984f
+INSERTEVENT: future time will be 4087.151725374984f
+EVENT time: 4039.6987584683757, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: ddddddddddddddddddd) from network layer layer
+TOLAYER3: seq: 3, ack 1, check: -4,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 4039.6987584683757f
+INSERTEVENT: future time will be 4048.7435775859303f
+TOLAYER5: data received: ddddddddddddddddddd
+EVENT time: 4048.7435775859303, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 1, Checksum: -4, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 4048.7435775859303
+EVENT time: 5920.117566600506, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 5920.117566600506f
+INSERTEVENT: future time will be 7125.118834704305f
+MAINLOOP: data given to student: eeeeeeeeeeeeeeeeeee
+A received eeeeeeeeeeeeeeeeeee from application layer
+TOLAYER3: seq: 4, ack 0, check: -131, eeeeeeeeeeeeeeeeeee
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5920.117566600506f
+INSERTEVENT: future time will be 5927.137764503131f
+START TIMER: starting timer at 5920.117566600506
+INSERTEVENT: time is 5920.117566600506f
+INSERTEVENT: future time will be 5970.117566600506f
+EVENT time: 5927.137764503131, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 4, ACK: 0, Checksum: -131, Payload: eeeeeeeeeeeeeeeeeee) from network layer layer
+TOLAYER3: seq: 4, ack 1, check: -5,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5927.137764503131f
+INSERTEVENT: future time will be 5929.102898693129f
+TOLAYER5: data received: eeeeeeeeeeeeeeeeeee
+EVENT time: 5929.102898693129, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 4, ACK: 1, Checksum: -5, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 5929.102898693129
+EVENT time: 7125.118834704305, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7125.118834704305f
+INSERTEVENT: future time will be 8934.241064068354f
+MAINLOOP: data given to student: fffffffffffffffffff
+A received fffffffffffffffffff from application layer
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7125.118834704305f
+INSERTEVENT: future time will be 7132.478962687231f
+START TIMER: starting timer at 7125.118834704305
+INSERTEVENT: time is 7125.118834704305f
+INSERTEVENT: future time will be 7175.118834704305f
+EVENT time: 7132.478962687231, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffff) from network layer layer
+TOLAYER3: seq: 5, ack 1, check: -6,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7132.478962687231f
+INSERTEVENT: future time will be 7134.688747136215f
+TOLAYER5: data received: fffffffffffffffffff
+EVENT time: 7134.688747136215, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 5, ACK: 1, Checksum: -6, Payload: Z) from network layer layer
+EVENT time: 7175.118834704305, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7175.118834704305f
+INSERTEVENT: future time will be 7178.954123267267f
+START TIMER: starting timer at 7175.118834704305
+INSERTEVENT: time is 7175.118834704305f
+INSERTEVENT: future time will be 7225.118834704305f
+EVENT time: 7178.954123267267, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffff) from network layer layer
+TOLAYER3: seq: 5, ack 1, check: -6,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7178.954123267267f
+INSERTEVENT: future time will be 7182.882911579336f
+EVENT time: 7182.882911579336, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 5, ACK: 1, Checksum: -6, Payload: Z) from network layer layer
+EVENT time: 7225.118834704305, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7225.118834704305f
+INSERTEVENT: future time will be 7229.033069695384f
+START TIMER: starting timer at 7225.118834704305
+INSERTEVENT: time is 7225.118834704305f
+INSERTEVENT: future time will be 7275.118834704305f
+EVENT time: 7229.033069695384, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffffZ) from network layer layer
+TOLAYER3: seq: 5, ack 0, check: -5,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7229.033069695384f
+INSERTEVENT: future time will be 7238.074969123801f
+EVENT time: 7238.074969123801, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 5, ACK: 0, Checksum: -5, Payload: Z) from network layer layer
+EVENT time: 7275.118834704305, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7275.118834704305f
+INSERTEVENT: future time will be 7281.001577957778f
+START TIMER: starting timer at 7275.118834704305
+INSERTEVENT: time is 7275.118834704305f
+INSERTEVENT: future time will be 7325.118834704305f
+EVENT time: 7281.001577957778, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffff) from network layer layer
+TOLAYER3: seq: 5, ack 1, check: -6,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7281.001577957778f
+INSERTEVENT: future time will be 7289.6899058683985f
+EVENT time: 7289.6899058683985, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 5, ACK: 1, Checksum: -6, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 7289.6899058683985
+EVENT time: 8934.241064068354, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 8934.241064068354f
+INSERTEVENT: future time will be 10000.680748549923f
+MAINLOOP: data given to student: ggggggggggggggggggg
+A received ggggggggggggggggggg from application layer
+TOLAYER3: seq: 6, ack 0, check: -171, ggggggggggggggggggg
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 8934.241064068354f
+INSERTEVENT: future time will be 8941.891033198219f
+START TIMER: starting timer at 8934.241064068354
+INSERTEVENT: time is 8934.241064068354f
+INSERTEVENT: future time will be 8984.241064068354f
+EVENT time: 8941.891033198219, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 6, ACK: 0, Checksum: -171, Payload: ggggggggggggggggggg) from network layer layer
+TOLAYER3: seq: 6, ack 1, check: -7,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 8941.891033198219f
+INSERTEVENT: future time will be 8948.621498071376f
+TOLAYER5: data received: ggggggggggggggggggg
+EVENT time: 8948.621498071376, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 6, ACK: 1, Checksum: -7, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 8948.621498071376
+EVENT time: 10000.680748549923, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 10000.680748549923f
+INSERTEVENT: future time will be 11936.616818039563f
+MAINLOOP: data given to student: hhhhhhhhhhhhhhhhhhh
+A received hhhhhhhhhhhhhhhhhhh from application layer
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 10000.680748549923f
+INSERTEVENT: future time will be 10003.5916966937f
+START TIMER: starting timer at 10000.680748549923
+INSERTEVENT: time is 10000.680748549923f
+INSERTEVENT: future time will be 10050.680748549923f
+EVENT time: 10003.5916966937, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhh) from network layer layer
+TOLAYER3: seq: 7, ack 1, check: -8,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 10003.5916966937f
+INSERTEVENT: future time will be 10012.008045066761f
+TOLAYER5: data received: hhhhhhhhhhhhhhhhhhh
+EVENT time: 10012.008045066761, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 7, ACK: 1, Checksum: -8, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 10012.008045066761
+EVENT time: 11936.616818039563, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 11936.616818039563f
+INSERTEVENT: future time will be 12950.79446752252f
+MAINLOOP: data given to student: iiiiiiiiiiiiiiiiiii
+A received iiiiiiiiiiiiiiiiiii from application layer
+TOLAYER3: seq: 8, ack 0, check: -211, iiiiiiiiiiiiiiiiiii
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 11936.616818039563f
+INSERTEVENT: future time will be 11945.975952504243f
+START TIMER: starting timer at 11936.616818039563
+INSERTEVENT: time is 11936.616818039563f
+INSERTEVENT: future time will be 11986.616818039563f
+EVENT time: 11945.975952504243, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 8, ACK: 0, Checksum: -211, Payload: iiiiiiiiiiiiiiiiiii) from network layer layer
+TOLAYER3: seq: 8, ack 1, check: -9,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 11945.975952504243f
+INSERTEVENT: future time will be 11953.957353881498f
+TOLAYER5: data received: iiiiiiiiiiiiiiiiiii
+EVENT time: 11953.957353881498, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 8, ACK: 1, Checksum: -9, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 11953.957353881498
+EVENT time: 12950.79446752252, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 12950.79446752252f
+INSERTEVENT: future time will be 14500.350086365976f
+MAINLOOP: data given to student: jjjjjjjjjjjjjjjjjjj
+A received jjjjjjjjjjjjjjjjjjj from application layer
+TOLAYER3: seq: 9, ack 0, check: -231, jjjjjjjjjjjjjjjjjjj
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 12950.79446752252f
+INSERTEVENT: future time will be 12953.991595889262f
+START TIMER: starting timer at 12950.79446752252
+INSERTEVENT: time is 12950.79446752252f
+INSERTEVENT: future time will be 13000.79446752252f
+EVENT time: 12953.991595889262, type: EventType.FROM_LAYER3, entity: 1
+
+
+
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+
+Enter the number of messages to simulate: 10
+Enter  packet loss probability [enter 0.0 for no loss]:.25
+Enter packet corruption probability [0.0 for no corruption]:.25
+Enter average time between messages from sender's layer5 [ > 0.0]:1000
+Enter TRACE:2
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 0.0f
+INSERTEVENT: future time will be 1711.448496874349f
+EVENT time: 1711.448496874349, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 1711.448496874349f
+INSERTEVENT: future time will be 1792.7410456790485f
+MAINLOOP: data given to student: aaaaaaaaaaaaaaaaaaa
+A received aaaaaaaaaaaaaaaaaaa from application layer
+TOLAYER3: seq: 0, ack 0, check: -51, aaaaaaaaaaaaaaaaaaa
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1711.448496874349f
+INSERTEVENT: future time will be 1714.1550263825175f
+START TIMER: starting timer at 1711.448496874349
+INSERTEVENT: time is 1711.448496874349f
+INSERTEVENT: future time will be 1761.448496874349f
+EVENT time: 1714.1550263825175, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 0, ACK: 0, Checksum: -51, Payload: aaaaaaaaaaaaaaaaaaa) from network layer layer
+TOLAYER3: seq: 0, ack 1, check: -1,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1714.1550263825175f
+INSERTEVENT: future time will be 1719.9147802401162f
+TOLAYER5: data received: aaaaaaaaaaaaaaaaaaa
+EVENT time: 1719.9147802401162, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 0, ACK: 1, Checksum: -1, Payload: Z) from network layer layer
+EVENT time: 1761.448496874349, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 0, ack 0, check: -51, aaaaaaaaaaaaaaaaaaa
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1761.448496874349f
+INSERTEVENT: future time will be 1769.6604981192258f
+START TIMER: starting timer at 1761.448496874349
+INSERTEVENT: time is 1761.448496874349f
+INSERTEVENT: future time will be 1811.448496874349f
+EVENT time: 1769.6604981192258, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 0, ACK: 0, Checksum: -51, Payload: aaaaaaaaaaaaaaaaaaa) from network layer layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 0, ack 1, check: -1,
+EVENT time: 1792.7410456790485, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 1792.7410456790485f
+INSERTEVENT: future time will be 3234.5218249660884f
+MAINLOOP: data given to student: bbbbbbbbbbbbbbbbbbb
+A received bbbbbbbbbbbbbbbbbbb from application layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 1, ack 0, check: -71, bbbbbbbbbbbbbbbbbbb
+START TIMER: starting timer at 1792.7410456790485
+Warning: attempt to start a timer that is already started
+EVENT time: 1811.448496874349, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 0, ack 0, check: -51, aaaaaaaaaaaaaaaaaaa
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1811.448496874349f
+INSERTEVENT: future time will be 1818.9985890378014f
+START TIMER: starting timer at 1811.448496874349
+INSERTEVENT: time is 1811.448496874349f
+INSERTEVENT: future time will be 1861.448496874349f
+EVENT time: 1818.9985890378014, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 0, ACK: 0, Checksum: -51, Payload: aaaaaaaaaaaaaaaaaaa) from network layer layer
+TOLAYER3: seq: 0, ack 1, check: -1,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1818.9985890378014f
+INSERTEVENT: future time will be 1828.007376208892f
+EVENT time: 1828.007376208892, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 0, ACK: 1, Checksum: -1, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 1828.007376208892
+EVENT time: 3234.5218249660884, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 3234.5218249660884f
+INSERTEVENT: future time will be 3572.8856742859016f
+MAINLOOP: data given to student: ccccccccccccccccccc
+A received ccccccccccccccccccc from application layer
+TOLAYER3: seq: 2, ack 0, check: -91, ccccccccccccccccccc
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3234.5218249660884f
+INSERTEVENT: future time will be 3236.4498692988673f
+START TIMER: starting timer at 3234.5218249660884
+INSERTEVENT: time is 3234.5218249660884f
+INSERTEVENT: future time will be 3284.5218249660884f
+EVENT time: 3236.4498692988673, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 2, ACK: 0, Checksum: -91, Payload: ccccccccccccccccccc) from network layer layer
+TOLAYER3: seq: 2, ack 1, check: -3,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3236.4498692988673f
+INSERTEVENT: future time will be 3239.9586819370943f
+EVENT time: 3239.9586819370943, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 2, ACK: 1, Checksum: -3, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 3239.9586819370943
+EVENT time: 3572.8856742859016, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 3572.8856742859016f
+INSERTEVENT: future time will be 4062.4980919649906f
+MAINLOOP: data given to student: ddddddddddddddddddd
+A received ddddddddddddddddddd from application layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 3572.8856742859016
+INSERTEVENT: time is 3572.8856742859016f
+INSERTEVENT: future time will be 3622.8856742859016f
+EVENT time: 3622.8856742859016, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 1, ack 0, check: -71, bbbbbbbbbbbbbbbbbbb
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET ACK NUMBER
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3622.8856742859016f
+INSERTEVENT: future time will be 3628.1257194341124f
+START TIMER: starting timer at 3622.8856742859016
+INSERTEVENT: time is 3622.8856742859016f
+INSERTEVENT: future time will be 3672.8856742859016f
+EVENT time: 3628.1257194341124, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 1, ACK: 999999, Checksum: -71, Payload: bbbbbbbbbbbbbbbbbbb) from network layer layer
+TOLAYER3: seq: 1, ack 999999, check: -64,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3628.1257194341124f
+INSERTEVENT: future time will be 3630.260017770382f
+EVENT time: 3630.260017770382, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 1, ACK: 999999, Checksum: -64, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 3630.260017770382
+EVENT time: 4062.4980919649906, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 4062.4980919649906f
+INSERTEVENT: future time will be 5474.350259310862f
+MAINLOOP: data given to student: eeeeeeeeeeeeeeeeeee
+A received eeeeeeeeeeeeeeeeeee from application layer
+TOLAYER3: seq: 4, ack 0, check: -131, eeeeeeeeeeeeeeeeeee
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 4062.4980919649906f
+INSERTEVENT: future time will be 4072.20229777168f
+START TIMER: starting timer at 4062.4980919649906
+INSERTEVENT: time is 4062.4980919649906f
+INSERTEVENT: future time will be 4112.498091964991f
+EVENT time: 4072.20229777168, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 4, ACK: 0, Checksum: -131, Payload: eeeeeeeeeeeeeeeeeee) from network layer layer
+TOLAYER3: seq: 4, ack 1, check: -5,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 4072.20229777168f
+INSERTEVENT: future time will be 4078.7609123485863f
+EVENT time: 4078.7609123485863, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 4, ACK: 1, Checksum: -5, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 4078.7609123485863
+EVENT time: 5474.350259310862, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 5474.350259310862f
+INSERTEVENT: future time will be 6159.974726981501f
+MAINLOOP: data given to student: fffffffffffffffffff
+A received fffffffffffffffffff from application layer
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5474.350259310862f
+INSERTEVENT: future time will be 5483.330449174661f
+START TIMER: starting timer at 5474.350259310862
+INSERTEVENT: time is 5474.350259310862f
+INSERTEVENT: future time will be 5524.350259310862f
+EVENT time: 5483.330449174661, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffff) from network layer layer
+TOLAYER3: seq: 5, ack 1, check: -6,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5483.330449174661f
+INSERTEVENT: future time will be 5493.328559728393f
+EVENT time: 5493.328559728393, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 5, ACK: 1, Checksum: -6, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 5493.328559728393
+EVENT time: 6159.974726981501, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 6159.974726981501f
+INSERTEVENT: future time will be 6762.338887242299f
+MAINLOOP: data given to student: ggggggggggggggggggg
+A received ggggggggggggggggggg from application layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 6, ack 0, check: -171, ggggggggggggggggggg
+START TIMER: starting timer at 6159.974726981501
+INSERTEVENT: time is 6159.974726981501f
+INSERTEVENT: future time will be 6209.974726981501f
+EVENT time: 6209.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6209.974726981501f
+INSERTEVENT: future time will be 6213.588716284428f
+START TIMER: starting timer at 6209.974726981501
+INSERTEVENT: time is 6209.974726981501f
+INSERTEVENT: future time will be 6259.974726981501f
+EVENT time: 6213.588716284428, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: dddddddddddddddddddZ) from network layer layer
+TOLAYER3: seq: 3, ack 0, check: -3,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6213.588716284428f
+INSERTEVENT: future time will be 6217.643848142607f
+EVENT time: 6217.643848142607, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 0, Checksum: -3, Payload: Z) from network layer layer
+EVENT time: 6259.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6259.974726981501f
+INSERTEVENT: future time will be 6265.973781894111f
+START TIMER: starting timer at 6259.974726981501
+INSERTEVENT: time is 6259.974726981501f
+INSERTEVENT: future time will be 6309.974726981501f
+EVENT time: 6265.973781894111, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: dddddddddddddddddddZ) from network layer layer
+TOLAYER3: seq: 3, ack 0, check: -3,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6265.973781894111f
+INSERTEVENT: future time will be 6268.605642893896f
+EVENT time: 6268.605642893896, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 0, Checksum: -3, Payload: ) from network layer layer
+EVENT time: 6309.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6309.974726981501f
+INSERTEVENT: future time will be 6318.414371838011f
+START TIMER: starting timer at 6309.974726981501
+INSERTEVENT: time is 6309.974726981501f
+INSERTEVENT: future time will be 6359.974726981501f
+EVENT time: 6318.414371838011, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: ddddddddddddddddddd) from network layer layer
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 1, check: -4,
+EVENT time: 6359.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 6359.974726981501
+INSERTEVENT: time is 6359.974726981501f
+INSERTEVENT: future time will be 6409.974726981501f
+EVENT time: 6409.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 6409.974726981501
+INSERTEVENT: time is 6409.974726981501f
+INSERTEVENT: future time will be 6459.974726981501f
+EVENT time: 6459.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 6459.974726981501
+INSERTEVENT: time is 6459.974726981501f
+INSERTEVENT: future time will be 6509.974726981501f
+EVENT time: 6509.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 6509.974726981501
+INSERTEVENT: time is 6509.974726981501f
+INSERTEVENT: future time will be 6559.974726981501f
+EVENT time: 6559.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6559.974726981501f
+INSERTEVENT: future time will be 6562.97350601728f
+START TIMER: starting timer at 6559.974726981501
+INSERTEVENT: time is 6559.974726981501f
+INSERTEVENT: future time will be 6609.974726981501f
+EVENT time: 6562.97350601728, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: dddddddddddddddddddZ) from network layer layer
+TOLAYER3: seq: 3, ack 0, check: -3,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6562.97350601728f
+INSERTEVENT: future time will be 6568.290976479454f
+EVENT time: 6568.290976479454, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 0, Checksum: -3, Payload: ) from network layer layer
+EVENT time: 6609.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+START TIMER: starting timer at 6609.974726981501
+INSERTEVENT: time is 6609.974726981501f
+INSERTEVENT: future time will be 6659.974726981501f
+EVENT time: 6659.974726981501, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6659.974726981501f
+INSERTEVENT: future time will be 6668.471819982356f
+START TIMER: starting timer at 6659.974726981501
+INSERTEVENT: time is 6659.974726981501f
+INSERTEVENT: future time will be 6709.974726981501f
+EVENT time: 6668.471819982356, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: ddddddddddddddddddd) from network layer layer
+TOLAYER3: seq: 3, ack 1, check: -4,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6668.471819982356f
+INSERTEVENT: future time will be 6678.420820453377f
+EVENT time: 6678.420820453377, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 1, Checksum: -4, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 6678.420820453377
+EVENT time: 6762.338887242299, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 6762.338887242299f
+INSERTEVENT: future time will be 7621.14423643933f
+MAINLOOP: data given to student: hhhhhhhhhhhhhhhhhhh
+A received hhhhhhhhhhhhhhhhhhh from application layer
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6762.338887242299f
+INSERTEVENT: future time will be 6766.636836219341f
+START TIMER: starting timer at 6762.338887242299
+INSERTEVENT: time is 6762.338887242299f
+INSERTEVENT: future time will be 6812.338887242299f
+EVENT time: 6766.636836219341, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhhZ) from network layer layer
+TOLAYER3: seq: 7, ack 0, check: -7,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6766.636836219341f
+INSERTEVENT: future time will be 6774.996633458269f
+EVENT time: 6774.996633458269, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 7, ACK: 0, Checksum: -7, Payload: ) from network layer layer
+EVENT time: 6812.338887242299, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 6, ack 0, check: -171, ggggggggggggggggggg
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6812.338887242299f
+INSERTEVENT: future time will be 6821.629105607502f
+START TIMER: starting timer at 6812.338887242299
+INSERTEVENT: time is 6812.338887242299f
+INSERTEVENT: future time will be 6862.338887242299f
+EVENT time: 6821.629105607502, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 6, ACK: 0, Checksum: -171, Payload: ggggggggggggggggggg) from network layer layer
+TOLAYER3: seq: 6, ack 1, check: -7,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6821.629105607502f
+INSERTEVENT: future time will be 6823.166278931931f
+EVENT time: 6823.166278931931, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 6, ACK: 1, Checksum: -7, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 6823.166278931931
+EVENT time: 7621.14423643933, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7621.14423643933f
+INSERTEVENT: future time will be 9026.85241456612f
+MAINLOOP: data given to student: iiiiiiiiiiiiiiiiiii
+A received iiiiiiiiiiiiiiiiiii from application layer
+TOLAYER3: seq: 8, ack 0, check: -211, iiiiiiiiiiiiiiiiiii
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7621.14423643933f
+INSERTEVENT: future time will be 7625.403188459607f
+START TIMER: starting timer at 7621.14423643933
+INSERTEVENT: time is 7621.14423643933f
+INSERTEVENT: future time will be 7671.14423643933f
+EVENT time: 7625.403188459607, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 8, ACK: 0, Checksum: -211, Payload: iiiiiiiiiiiiiiiiiiiZ) from network layer layer
+TOLAYER3: seq: 8, ack 0, check: -8,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7625.403188459607f
+INSERTEVENT: future time will be 7634.815153661219f
+EVENT time: 7634.815153661219, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 8, ACK: 0, Checksum: -8, Payload: ) from network layer layer
+EVENT time: 7671.14423643933, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7671.14423643933f
+INSERTEVENT: future time will be 7675.184208559259f
+START TIMER: starting timer at 7671.14423643933
+INSERTEVENT: time is 7671.14423643933f
+INSERTEVENT: future time will be 7721.14423643933f
+EVENT time: 7675.184208559259, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhh) from network layer layer
+TOLAYER3: seq: 7, ack 1, check: -8,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET SEGMENT NUMBER
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7675.184208559259f
+INSERTEVENT: future time will be 7677.877996898271f
+EVENT time: 7677.877996898271, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 999999, ACK: 1, Checksum: -8, Payload: ) from network layer layer
+EVENT time: 7721.14423643933, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+START TIMER: starting timer at 7721.14423643933
+INSERTEVENT: time is 7721.14423643933f
+INSERTEVENT: future time will be 7771.14423643933f
+EVENT time: 7771.14423643933, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+START TIMER: starting timer at 7771.14423643933
+INSERTEVENT: time is 7771.14423643933f
+INSERTEVENT: future time will be 7821.14423643933f
+EVENT time: 7821.14423643933, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7821.14423643933f
+INSERTEVENT: future time will be 7829.303660671742f
+START TIMER: starting timer at 7821.14423643933
+INSERTEVENT: time is 7821.14423643933f
+INSERTEVENT: future time will be 7871.14423643933f
+EVENT time: 7829.303660671742, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhhZ) from network layer layer
+TOLAYER3: seq: 7, ack 0, check: -7,
+TOLAYER3: PACKET BEING CORRUPTED
+CORRUPTING PACKET DATA
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7829.303660671742f
+INSERTEVENT: future time will be 7835.1623386893825f
+EVENT time: 7835.1623386893825, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 7, ACK: 0, Checksum: -7, Payload: Z) from network layer layer
+EVENT time: 7871.14423643933, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: PACKET BEING LOST
+***TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+START TIMER: starting timer at 7871.14423643933
+INSERTEVENT: time is 7871.14423643933f
+INSERTEVENT: future time will be 7921.14423643933f
+EVENT time: 7921.14423643933, type: EventType.TIMER_INTERRUPT, entity: 0
+A experienced a timer interrupt
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7921.14423643933f
+INSERTEVENT: future time will be 7925.306928862187f
+START TIMER: starting timer at 7921.14423643933
+INSERTEVENT: time is 7921.14423643933f
+INSERTEVENT: future time will be 7971.14423643933f
+EVENT time: 7925.306928862187, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhh) from network layer layer
+TOLAYER3: seq: 7, ack 1, check: -8,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7925.306928862187f
+INSERTEVENT: future time will be 7932.584160519101f
+EVENT time: 7932.584160519101, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 7, ACK: 1, Checksum: -8, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 7932.584160519101
+EVENT time: 9026.85241456612, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 9026.85241456612f
+INSERTEVENT: future time will be 10112.966940938142f
+MAINLOOP: data given to student: jjjjjjjjjjjjjjjjjjj
+A received jjjjjjjjjjjjjjjjjjj from application layer
+TOLAYER3: seq: 9, ack 0, check: -231, jjjjjjjjjjjjjjjjjjj
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 9026.85241456612f
+INSERTEVENT: future time will be 9029.828548465577f
+START TIMER: starting timer at 9026.85241456612
+INSERTEVENT: time is 9026.85241456612f
+INSERTEVENT: future time will be 9076.85241456612f
+EVENT time: 9029.828548465577, type: EventType.FROM_LAYER3, entity: 1
+
+
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+
+Enter the number of messages to simulate: 10
+Enter  packet loss probability [enter 0.0 for no loss]:0
+Enter packet corruption probability [0.0 for no corruption]:0
+Enter average time between messages from sender's layer5 [ > 0.0]:1000
+Enter TRACE:2
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 0.0f
+INSERTEVENT: future time will be 1021.6693315860939f
+EVENT time: 1021.6693315860939, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 1021.6693315860939f
+INSERTEVENT: future time will be 1612.6117984899697f
+MAINLOOP: data given to student: aaaaaaaaaaaaaaaaaaa
+A received aaaaaaaaaaaaaaaaaaa from application layer
+TOLAYER3: seq: 0, ack 0, check: -51, aaaaaaaaaaaaaaaaaaa
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1021.6693315860939f
+INSERTEVENT: future time will be 1031.5541302718236f
+START TIMER: starting timer at 1021.6693315860939
+INSERTEVENT: time is 1021.6693315860939f
+INSERTEVENT: future time will be 1071.669331586094f
+EVENT time: 1031.5541302718236, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 0, ACK: 0, Checksum: -51, Payload: aaaaaaaaaaaaaaaaaaa) from network layer layer
+TOLAYER3: seq: 0, ack 1, check: -1,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1031.5541302718236f
+INSERTEVENT: future time will be 1040.629422986856f
+TOLAYER5: data received: aaaaaaaaaaaaaaaaaaa
+EVENT time: 1040.629422986856, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 0, ACK: 1, Checksum: -1, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 1040.629422986856
+EVENT time: 1612.6117984899697, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 1612.6117984899697f
+INSERTEVENT: future time will be 3487.9994551441573f
+MAINLOOP: data given to student: bbbbbbbbbbbbbbbbbbb
+A received bbbbbbbbbbbbbbbbbbb from application layer
+TOLAYER3: seq: 1, ack 0, check: -71, bbbbbbbbbbbbbbbbbbb
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1612.6117984899697f
+INSERTEVENT: future time will be 1615.3341801437014f
+START TIMER: starting timer at 1612.6117984899697
+INSERTEVENT: time is 1612.6117984899697f
+INSERTEVENT: future time will be 1662.6117984899697f
+EVENT time: 1615.3341801437014, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 1, ACK: 0, Checksum: -71, Payload: bbbbbbbbbbbbbbbbbbb) from network layer layer
+TOLAYER3: seq: 1, ack 1, check: -2,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 1615.3341801437014f
+INSERTEVENT: future time will be 1620.507223213977f
+TOLAYER5: data received: bbbbbbbbbbbbbbbbbbb
+EVENT time: 1620.507223213977, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 1, ACK: 1, Checksum: -2, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 1620.507223213977
+EVENT time: 3487.9994551441573, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 3487.9994551441573f
+INSERTEVENT: future time will be 5224.3793926888875f
+MAINLOOP: data given to student: ccccccccccccccccccc
+A received ccccccccccccccccccc from application layer
+TOLAYER3: seq: 2, ack 0, check: -91, ccccccccccccccccccc
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3487.9994551441573f
+INSERTEVENT: future time will be 3496.738711586316f
+START TIMER: starting timer at 3487.9994551441573
+INSERTEVENT: time is 3487.9994551441573f
+INSERTEVENT: future time will be 3537.9994551441573f
+EVENT time: 3496.738711586316, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 2, ACK: 0, Checksum: -91, Payload: ccccccccccccccccccc) from network layer layer
+TOLAYER3: seq: 2, ack 1, check: -3,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 3496.738711586316f
+INSERTEVENT: future time will be 3500.1850098331383f
+TOLAYER5: data received: ccccccccccccccccccc
+EVENT time: 3500.1850098331383, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 2, ACK: 1, Checksum: -3, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 3500.1850098331383
+EVENT time: 5224.3793926888875, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 5224.3793926888875f
+INSERTEVENT: future time will be 6183.975583645133f
+MAINLOOP: data given to student: ddddddddddddddddddd
+A received ddddddddddddddddddd from application layer
+TOLAYER3: seq: 3, ack 0, check: -111, ddddddddddddddddddd
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5224.3793926888875f
+INSERTEVENT: future time will be 5228.512204598044f
+START TIMER: starting timer at 5224.3793926888875
+INSERTEVENT: time is 5224.3793926888875f
+INSERTEVENT: future time will be 5274.3793926888875f
+EVENT time: 5228.512204598044, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 3, ACK: 0, Checksum: -111, Payload: ddddddddddddddddddd) from network layer layer
+TOLAYER3: seq: 3, ack 1, check: -4,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 5228.512204598044f
+INSERTEVENT: future time will be 5229.533721515492f
+TOLAYER5: data received: ddddddddddddddddddd
+EVENT time: 5229.533721515492, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 3, ACK: 1, Checksum: -4, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 5229.533721515492
+EVENT time: 6183.975583645133, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 6183.975583645133f
+INSERTEVENT: future time will be 6710.896264321748f
+MAINLOOP: data given to student: eeeeeeeeeeeeeeeeeee
+A received eeeeeeeeeeeeeeeeeee from application layer
+TOLAYER3: seq: 4, ack 0, check: -131, eeeeeeeeeeeeeeeeeee
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6183.975583645133f
+INSERTEVENT: future time will be 6187.992533273122f
+START TIMER: starting timer at 6183.975583645133
+INSERTEVENT: time is 6183.975583645133f
+INSERTEVENT: future time will be 6233.975583645133f
+EVENT time: 6187.992533273122, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 4, ACK: 0, Checksum: -131, Payload: eeeeeeeeeeeeeeeeeee) from network layer layer
+TOLAYER3: seq: 4, ack 1, check: -5,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6187.992533273122f
+INSERTEVENT: future time will be 6194.33985971636f
+TOLAYER5: data received: eeeeeeeeeeeeeeeeeee
+EVENT time: 6194.33985971636, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 4, ACK: 1, Checksum: -5, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 6194.33985971636
+EVENT time: 6710.896264321748, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 6710.896264321748f
+INSERTEVENT: future time will be 7746.783863652881f
+MAINLOOP: data given to student: fffffffffffffffffff
+A received fffffffffffffffffff from application layer
+TOLAYER3: seq: 5, ack 0, check: -151, fffffffffffffffffff
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6710.896264321748f
+INSERTEVENT: future time will be 6715.9996805795445f
+START TIMER: starting timer at 6710.896264321748
+INSERTEVENT: time is 6710.896264321748f
+INSERTEVENT: future time will be 6760.896264321748f
+EVENT time: 6715.9996805795445, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 5, ACK: 0, Checksum: -151, Payload: fffffffffffffffffff) from network layer layer
+TOLAYER3: seq: 5, ack 1, check: -6,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 6715.9996805795445f
+INSERTEVENT: future time will be 6724.711402458823f
+TOLAYER5: data received: fffffffffffffffffff
+EVENT time: 6724.711402458823, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 5, ACK: 1, Checksum: -6, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 6724.711402458823
+EVENT time: 7746.783863652881, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7746.783863652881f
+INSERTEVENT: future time will be 7897.04793881843f
+MAINLOOP: data given to student: ggggggggggggggggggg
+A received ggggggggggggggggggg from application layer
+TOLAYER3: seq: 6, ack 0, check: -171, ggggggggggggggggggg
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7746.783863652881f
+INSERTEVENT: future time will be 7755.7766121268705f
+START TIMER: starting timer at 7746.783863652881
+INSERTEVENT: time is 7746.783863652881f
+INSERTEVENT: future time will be 7796.783863652881f
+EVENT time: 7755.7766121268705, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 6, ACK: 0, Checksum: -171, Payload: ggggggggggggggggggg) from network layer layer
+TOLAYER3: seq: 6, ack 1, check: -7,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7755.7766121268705f
+INSERTEVENT: future time will be 7763.926261437007f
+TOLAYER5: data received: ggggggggggggggggggg
+EVENT time: 7763.926261437007, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 6, ACK: 1, Checksum: -7, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 7763.926261437007
+EVENT time: 7897.04793881843, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 7897.04793881843f
+INSERTEVENT: future time will be 8817.853391294677f
+MAINLOOP: data given to student: hhhhhhhhhhhhhhhhhhh
+A received hhhhhhhhhhhhhhhhhhh from application layer
+TOLAYER3: seq: 7, ack 0, check: -191, hhhhhhhhhhhhhhhhhhh
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7897.04793881843f
+INSERTEVENT: future time will be 7905.054195710658f
+START TIMER: starting timer at 7897.04793881843
+INSERTEVENT: time is 7897.04793881843f
+INSERTEVENT: future time will be 7947.04793881843f
+EVENT time: 7905.054195710658, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 7, ACK: 0, Checksum: -191, Payload: hhhhhhhhhhhhhhhhhhh) from network layer layer
+TOLAYER3: seq: 7, ack 1, check: -8,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 7905.054195710658f
+INSERTEVENT: future time will be 7913.388073586574f
+TOLAYER5: data received: hhhhhhhhhhhhhhhhhhh
+EVENT time: 7913.388073586574, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 7, ACK: 1, Checksum: -8, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 7913.388073586574
+EVENT time: 8817.853391294677, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 8817.853391294677f
+INSERTEVENT: future time will be 9862.437791981054f
+MAINLOOP: data given to student: iiiiiiiiiiiiiiiiiii
+A received iiiiiiiiiiiiiiiiiii from application layer
+TOLAYER3: seq: 8, ack 0, check: -211, iiiiiiiiiiiiiiiiiii
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 8817.853391294677f
+INSERTEVENT: future time will be 8823.720393948746f
+START TIMER: starting timer at 8817.853391294677
+INSERTEVENT: time is 8817.853391294677f
+INSERTEVENT: future time will be 8867.853391294677f
+EVENT time: 8823.720393948746, type: EventType.FROM_LAYER3, entity: 1
+B received a packet (SEQ: 8, ACK: 0, Checksum: -211, Payload: iiiiiiiiiiiiiiiiiii) from network layer layer
+TOLAYER3: seq: 8, ack 1, check: -9,
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 8823.720393948746f
+INSERTEVENT: future time will be 8825.475195222154f
+TOLAYER5: data received: iiiiiiiiiiiiiiiiiii
+EVENT time: 8825.475195222154, type: EventType.FROM_LAYER3, entity: 0
+A received a packet (SEQ: 8, ACK: 1, Checksum: -9, Payload: ) from network layer layer
+STOP TIMER: stopping timer at 8825.475195222154
+EVENT time: 9862.437791981054, type: EventType.FROM_LAYER5, entity: 0
+GENERATE NEXT ARRIVAL: creating new arrival
+INSERTEVENT: time is 9862.437791981054f
+INSERTEVENT: future time will be 10833.120106479262f
+MAINLOOP: data given to student: jjjjjjjjjjjjjjjjjjj
+A received jjjjjjjjjjjjjjjjjjj from application layer
+TOLAYER3: seq: 9, ack 0, check: -231, jjjjjjjjjjjjjjjjjjj
+TOLAYER3: scheduling arrival on other side
+INSERTEVENT: time is 9862.437791981054f
+INSERTEVENT: future time will be 9869.141555467624f
+START TIMER: starting timer at 9862.437791981054
+INSERTEVENT: time is 9862.437791981054f
+INSERTEVENT: future time will be 9912.437791981054f
+EVENT time: 9869.141555467624, type: EventType.FROM_LAYER3, entity: 1
